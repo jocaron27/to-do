@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+  <form action="/addList" method="POST">
+    <label for="name_field">name:</label>
+    <input type="text" id="name" placeholder="name" />
+    <input type="submit" value="submit" />
+  </form>
+
+{% endblock %}
