@@ -1,0 +1,48 @@
+/* ------------ General --------------- */
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/* ------------ Header --------------- */
+
+.header-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+.header {
+    height: 130px;
+    background-color: rgb(255, 187, 0);
+    display: flex;
+}
+
+/* ------------ Add List Button --------------- */
+
+.add-list-btn {
+    width: 50px;
+    position: relative;
+    bottom: 37px;
+    left: 6%;
+}
+
+/* ------------ Create List Form --------------- */
+
+.create-list-form {
+    font-family: 'Lato', sans-serif;
+    padding: 17px;
+    background-color: rgba(185, 151, 50, 0.14);
+}
+
+.create-list-input {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    width: 240px;
+    height: 25px;
+    margin: 0px 24px;
+}
+
+.create-list-btn {
+    width: 80px;
+}

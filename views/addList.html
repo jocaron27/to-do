@@ -2,10 +2,10 @@
 
 {% block content %}
 
-  <form action="/addList" method="POST">
-    <label for="name_field">name:</label>
-    <input type="text" id="name" placeholder="name" />
-    <input type="submit" value="submit" />
+  <form action="/addList" method="POST" class="create-list-form">
+    <label for="name_field">List Name:</label>
+    <input class="create-list-input" type="text" id="name" placeholder="Name your list here" />
+    <input class="create-list-btn" type="submit" value="Create List" />
   </form>
 
 {% endblock %}
